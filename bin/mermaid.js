@@ -3,10 +3,10 @@
 var fs = require('fs')
   , chalk = require('chalk')
   , error = chalk.bold.red
-  , Cli = require('../lib/cli.js')
+  , cli = require('../lib/cli.js')
   , lib = require('../lib')
 
-var cli = new Cli().parse(process.argv.slice(2), function(err, message, options) {
+cli.parse(process.argv.slice(2), function(err, message, options) {
   if (err) {
     console.error(
       error('\nYou had errors in your syntax. Use --help for further information.')
@@ -24,4 +24,4 @@ var cli = new Cli().parse(process.argv.slice(2), function(err, message, options)
   }
 
   lib.process(options.files, options)
-});
+})

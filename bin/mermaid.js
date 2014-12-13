@@ -23,5 +23,5 @@ var cli = new Cli().parse(process.argv.slice(2), function(err, message, options)
     return
   }
 
-  lib.process(options.file, options)
+  lib.process(options.files, options)
 });

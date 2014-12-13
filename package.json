@@ -1,11 +1,23 @@
 {
   "name": "mermaid-cli",
   "version": "0.0.0",
-  "description": "",
+  "description": "Render mermaid chart description files to png or svg.",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "mermaid": "./bin/mermaid.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fardog/mermaid-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fardog/mermaid-cli/issues"
+  },
+  "homepage": "https://github.com/fardog/mermaid-cli",
   "author": "Nathan Wittstock <nate@milkandtang.com>",
   "license": "MIT",
   "dependencies": {

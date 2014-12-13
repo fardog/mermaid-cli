@@ -3,6 +3,8 @@
 Render [mermaid chart description][mermaid] files to png or svg.
 
 **Warning:** This is a very early release not yet fit for public consumption.
+SVGs are just output to stdout, and are non-standard. PNGs work depending on
+your opinion of "work".
 
 ## Installation
 
@@ -19,7 +21,7 @@ $ mermaid --help
 ```
 ## History
 
-- **v0.0.0**
+- **v0.0.0**  
 Early release.
 
 [mermaid]: https://github.com/knsv/mermaid/

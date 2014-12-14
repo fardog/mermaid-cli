@@ -1,6 +1,6 @@
 {
   "name": "mermaid-cli",
-  "version": "0.0.1-0",
+  "version": "0.0.1",
   "description": "Render mermaid chart description files to png or svg.",
   "main": "index.js",
   "preferGlobal": true,

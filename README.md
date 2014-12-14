@@ -4,7 +4,7 @@ Render [mermaid chart description][mermaid] files to png or svg.
 
 **Warning:** This is a very early release not yet fit for public consumption.
 PNGs seem to work pretty well, but aren't tested thoroughly and there are few
-options.  SVGs are output, but are and are non-standard and missing labels.
+options. SVGs are output, but are and are non-standard and missing labels.
 
 ## Installation
 

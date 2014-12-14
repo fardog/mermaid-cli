@@ -3,8 +3,8 @@
 Render [mermaid chart description][mermaid] files to png or svg.
 
 **Warning:** This is a very early release not yet fit for public consumption.
-SVGs are output, but are and are non-standard and missing labels. PNGs work
-depending on your opinion of "work".
+PNGs seem to work pretty well, but aren't tested thoroughly and there are few
+options.  SVGs are output, but are and are non-standard and missing labels.
 
 ## Installation
 
@@ -20,6 +20,9 @@ npm install -g mermaid-cli
 $ mermaid --help
 ```
 ## History
+
+- **v0.0.1**  
+Functional PNG support.
 
 - **v0.0.0**  
 Early release.

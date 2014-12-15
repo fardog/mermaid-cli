@@ -1,6 +1,6 @@
 # mermaid-cli
 
-Render [mermaid chart description][mermaid] files to png or svg.
+Render [mermaid chart description][mermaid] files to PNG or SVG.
 
 **Warning:** This is a very early release; not everything may work as expected.
 PNG output works pretty well, but isn't thoroughly tested. SVGs can be output,

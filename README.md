@@ -2,9 +2,8 @@
 
 Render [mermaid chart description][mermaid] files to PNG or SVG.
 
-**Warning:** This is a very early release; not everything may work as expected.
-PNG output works pretty well, but isn't thoroughly tested. SVGs can be output,
-but are and are non-standard and text labels are imperfect.
+**Note:** This is an early release; PNG support is good but SVG is not. Please
+see the known issues below.
 
 ## Installation
 
@@ -31,7 +30,19 @@ Options:
   -v --verbose      Show logging
   --version         Print version and quit
 ```
+
+## Known Issues
+
+- SVG output currently does some replacement on text, as mermaid's output is
+  only appropriate for browsers. Text color and background color is not yet
+  replicated; please use PNGs for most purposes until this is resolved.
+- SVG output is decidedly non-standard. It works, but may cause issues in some
+  viewers.
+
 ## History
+
+- **v0.2.1**  
+Makes things easier to read; makes 'verbose' do something
 
 - **v0.2.0**  
 Pretty good PNG output, rudimentary SVG output

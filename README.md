@@ -41,6 +41,9 @@ Options:
 
 ## History
 
+- **v0.2.3**  
+Adds tests, fixes output directory when creating SVGs
+
 - **v0.2.2**  
 Cleanup of phantom script, better handling of multiple files
 

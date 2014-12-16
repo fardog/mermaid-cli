@@ -2,8 +2,8 @@
 
 Render [mermaid chart description][mermaid] files to PNG or SVG.
 
-**Note:** This is an early release; PNG support is good but SVG is not. Please
-see the known issues below.
+**Note:**  SVG output is currently experimental. Please see the known issues
+below.
 
 ## Installation
 
@@ -40,6 +40,9 @@ Options:
   viewers.
 
 ## History
+
+- **v0.2.2**  
+Cleanup of phantom script, better handling of multiple files
 
 - **v0.2.1**  
 Makes things easier to read; makes 'verbose' do something

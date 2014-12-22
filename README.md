@@ -2,8 +2,12 @@
 
 Render [mermaid chart description][mermaid] files to PNG or SVG.
 
-**Note:**  SVG output is currently experimental. Please see the known issues
-below.
+## DEPRECATION NOTICE
+
+As of [mermaid v0.3.0](https://www.npmjs.com/package/mermaid) this package has
+been merged into mermaid core. Please do an `npm install -g mermaid` to get
+the mermaid CLI functionality. This package will see no further updates, and
+any new features will be added directly into mermaid.
 
 ## Installation
 
@@ -40,6 +44,9 @@ Options:
   viewers.
 
 ## History
+
+- **v0.2.4**  
+Adds deprecation notice.
 
 - **v0.2.3**  
 Adds tests, fixes output directory when creating SVGs
